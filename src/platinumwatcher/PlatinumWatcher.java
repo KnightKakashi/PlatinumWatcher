@@ -13,7 +13,7 @@ public class PlatinumWatcher {
         Dwayne m = new Dwayne();
         Vin v = new Vin();
         Bruce c = new Bruce(m, v);
-        
+        System.out.println("Furula perfectamente");
     }
     
 }

@@ -17,13 +17,9 @@ public class Bruce { // Controlador
     public Bruce(Dwayne model, Vin view) {
         this.model = model;
         this.view = view;
-        inicioVin();
-    }
-    
-    public void inicioVin(){
         view.CambioLabel(model.getMsg());
         view.setVisible(true);
+        view.setTitle("PlatinumWatcher");
     }
-    
-    
+        
 }

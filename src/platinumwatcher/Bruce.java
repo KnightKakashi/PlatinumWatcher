@@ -19,6 +19,7 @@ public class Bruce { // Controlador
         this.view = view;
         view.CambioLabel(model.getMsg());
         view.setVisible(true);
+        view.setTitle("PlatinumWatcher");
     }
         
 }

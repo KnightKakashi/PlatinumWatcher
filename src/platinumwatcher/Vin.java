@@ -55,7 +55,9 @@ public class Vin extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     /**
-     * @param args the command line arguments
+     * Actualiza el icono de la variable "violin" (un label) con una imagen nueva.
+     * 
+     * @param imagen es la ruta donde se encuentra la nueva imagen, relativa al classpath.
      */
        
     public void ImaginaCambio (String imagen){

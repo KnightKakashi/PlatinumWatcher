@@ -4,6 +4,8 @@
  */
 package platinumwatcher;
 
+import javax.swing.ImageIcon;
+
 /**
  *
  * @author CHUSO
@@ -26,30 +28,27 @@ public class Vin extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        label = new javax.swing.JLabel();
+        violin = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        label.setFont(new java.awt.Font("Segoe UI", 0, 48)); // NOI18N
-        label.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        label.setText("DEFAULT");
-        label.setToolTipText("");
+        violin.setFont(new java.awt.Font("Segoe UI", 0, 48)); // NOI18N
+        violin.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        violin.setToolTipText("");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addContainerGap(103, Short.MAX_VALUE)
-                .addComponent(label, javax.swing.GroupLayout.PREFERRED_SIZE, 343, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(79, 79, 79))
+            .addGroup(layout.createSequentialGroup()
+                .addComponent(violin, javax.swing.GroupLayout.PREFERRED_SIZE, 1179, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(80, 80, 80)
-                .addComponent(label, javax.swing.GroupLayout.PREFERRED_SIZE, 124, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(96, Short.MAX_VALUE))
+                .addComponent(violin, javax.swing.GroupLayout.PREFERRED_SIZE, 743, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, Short.MAX_VALUE))
         );
 
         pack();
@@ -59,11 +58,11 @@ public class Vin extends javax.swing.JFrame {
      * @param args the command line arguments
      */
        
-    public void CambioLabel(String txt){
-        label.setText(txt);
+    public void ImaginaCambio (String imagen){
+        violin.setIcon(new ImageIcon(getClass().getResource(imagen)));
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JLabel label;
+    private javax.swing.JLabel violin;
     // End of variables declaration//GEN-END:variables
 }

@@ -10,15 +10,15 @@ package platinumwatcher;
  */
 public class Bruce { // Controlador
     
-    private Dwayne model;
-    private Vin view;
+    private Dwayne roca;
+    private Vin familia = new Vin();
 
     
     public Bruce(Dwayne model, Vin view) {
-        this.model = model;
-        this.view = view;
-        view.CambioLabel(model.getMsg());
-        view.setVisible(true);
+        this.roca = roca;
+        this.familia = familia;
+        familia.ImaginaCambio("/platinumwatcher/imagen.png");
+        familia.setVisible(true);
     }
         
 }

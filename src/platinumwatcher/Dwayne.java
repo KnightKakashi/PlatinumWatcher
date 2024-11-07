@@ -9,21 +9,5 @@ package platinumwatcher;
  * @author CHUSO
  */
 public class Dwayne { // Dwayne = modelo
-    private String msg;
-    
-    public Dwayne() {
-        this.msg = "España";
-    }
-
-    public String getMsg() {
-        return msg;
-    }
-
-    public void setMsg(String msg) {
-        this.msg = msg;
-    }
-    
     
 }
-
-

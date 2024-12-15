@@ -13,3 +13,11 @@ Sí hay label.
 -> Refactoriza (cambia) los nombres de todas las clases y objetos también que uses de forma que sean exclusivos tuyos y del proyecto (en el futuro no evaluaré nada con nombres genéricos automatizados).
 Me gusta los nombre personalizados que usas.
 -> Modifica el README.md donde sea más explicativo sobre el objetivo del proyecto.
+
+
+
+2º modificación:
+Elimina la imagen (en el sentido de ser usada guía del look), y debes tener 3 ventanas (la tercera es el JDialog):
+1-> presentación, no redimensionable (tamaño mediano), simulando la carga, y desaparece por tiempo.
+2-> Salta la principal, donde una botonera o serie de botones deben ser funcional en el sentido de mandar un mensaje por consola, y usar el botón "Acceder" despliegue un menu contextual y una con una opción configuración con un JDialog modificado. Los cambios del look y los juegos que dispone, debe poder cargar los datos en el arranque.
+Todo los métodos y clases documentados.

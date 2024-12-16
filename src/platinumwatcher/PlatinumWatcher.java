@@ -1,19 +1,22 @@
 package platinumwatcher;
 
+import javax.swing.SwingUtilities;
+
 /**
- *
- * @author KnightKakashi
+ * Clase principal que ejecuta la aplicación mostrando la pantalla de carga inicial 
+ * y lanzando la ventana principal.
  */
 public class PlatinumWatcher {
-
     /**
-     * @param args el Array de <b>Strings</b> que captura el programa. 
+     * Método principal que arranca la aplicación.
+     * 
+     * @param args Argumentos de la línea de comandos (no utilizados).
      */
-    public static void main(String[] args) {    
-        Dwayne johnson = new Dwayne();
-        Vin diesel = new Vin();
-        Bruce willis = new Bruce(johnson, diesel);
-        System.out.println("Furula perfectamente");
+    public static void main(String[] args) {
+        SwingUtilities.invokeLater(() -> {
+            Dwayne modelo = new Dwayne();
+            Bruce controlador = new Bruce(modelo);
+            controlador.IniciameWey();
+        });
     }
-    
 }
